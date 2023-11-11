@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-border-box {
+    background-color: brown;
+}
+
+/* largura + padding + padding + border + border = largura total do elmento */
+
+/* sem border-box aparece tamanho 140 x 140. */
+/* Com border-box aparece 100 x 100 */

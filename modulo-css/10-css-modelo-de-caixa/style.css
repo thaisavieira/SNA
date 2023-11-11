@@ -1,0 +1,7 @@
+p {
+    margin: 20px;
+    padding: 20px; /*Espaçamento do texto com a borda*/
+    border: solid 10px green;
+
+    background-color: aqua;
+}

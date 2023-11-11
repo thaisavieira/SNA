@@ -1,0 +1,8 @@
+p {
+    margin: 30px 15px;
+    padding: 30px; /*Fica mais agradável para ver*/
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 20px;
+    border-color: green cyan orange blueviolet;
+}
