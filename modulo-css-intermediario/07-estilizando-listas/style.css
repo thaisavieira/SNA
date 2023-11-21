@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    /* list-style-image: url(./images/icons8-caixa-de-seleção-marcada-16.png); */
+    list-style: square inside url(./images/icons8-caixa-de-seleção-marcada-16.png);
+    background-color: lightgreen;
+
+}
+
+ul li {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+ol {
+    background-color: lightseagreen;
+    list-style: square inside url(./images/icons8-caixa-de-seleção-marcada-16.png);
+}
+
+ol li {
+    border: 1px solid red;
+    padding: 20px;
+}
