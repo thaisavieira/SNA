@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Beyonders;
+    src: url(./source/Beyonders.otf),url(./source/Beyonders.ttf);
+}
+
+h1 {
+    font-family: 'Beyonders', 'Courier New', Courier, monospace;
+}
