@@ -21,3 +21,14 @@ ul {
     display: inline;
     background-color: aqua;
 }
+
+.em-linha-e-bloco li {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none;
+}
