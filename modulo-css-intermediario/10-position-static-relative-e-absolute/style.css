@@ -19,14 +19,24 @@
 .elemento-relativo {
     position: relative;
     background-color: coral;
-    left: 100px;
-}
+    left: 100px;  /* afastamento lateral da esquerda*/
+} 
 
 .elemento-absoluto {
     position: absolute;
     left: 200px;
     background-color: darkcyan;
+    top: 0;
 }
+
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 212, 212);
+}
+
+
 
 .elemento-absoluto-com-pai {
     position: absolute;
@@ -34,4 +44,5 @@
     right: 0;
     width: 150px;
     height: 150px;
+    background-color: darkcyan;
 }
