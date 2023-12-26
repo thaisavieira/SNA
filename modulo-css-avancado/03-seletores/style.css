@@ -1,0 +1,53 @@
+/* Selecionando uma tag */
+h1 {
+    color: green;
+}
+
+/* Usando a própria classe */
+.paragrafo{
+    color: brown;
+}
+
+/* Usando o id */
+#menu {
+    margin-left: 100px;
+}
+
+/* Estilizando a página toda */
+* {
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Usando duas classes no mesmo elemento */
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+p,span {
+    font-size: 20px;
+}
+
+.sobre .texto {
+    color: palevioletred;
+}
+
+/* div > p{
+    color: royalblue;
+} */
+
+div + p {
+    color: royalblue;
+}
+
+a[target=_blank]{
+    color: red;
+}
