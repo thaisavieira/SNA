@@ -1,0 +1,24 @@
+ /* p::first-letter{
+    color: coral;
+}
+
+p::first-line {
+    color: pink;
+} */
+
+.first-letter::first-letter {
+    color: blue;
+}
+
+.first-line::first-line {
+    color: blueviolet;
+}
+
+li::marker {
+    color: maroon;
+    font-size: 60px;
+}
+
+h2::after {
+    content: url(https://placekitten.com/200/300);
+}
