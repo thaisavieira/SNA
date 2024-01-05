@@ -17,3 +17,14 @@
 .wrap{
     flex-wrap: wrap;
 }
+
+.item{
+    width: 100px;
+}
+
+.item.item3{
+    order: 1;
+}
+.item.item2{
+    order: 2;
+}
