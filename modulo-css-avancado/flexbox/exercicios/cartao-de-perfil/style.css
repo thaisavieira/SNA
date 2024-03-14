@@ -1,4 +1,32 @@
 body{
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--background-color);
 }
 
+span{
+    color: hsl(227, 10%, 46%);
+}
+
+.container-profile img{
+    border-radius: 50px;
+}
+.container-profile{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.info-pessoal{
+    background-color: palevioletred;
+}
+
+.info-conta{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 55px;
+}
